@@ -1,0 +1,485 @@
+!SESSION 2018-11-02 17:05:39.336 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=sv_SE
+Framework arguments:  -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-02 17:06:21.946
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Simon Lindell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY fr.ac6.mcu.ide 1 1 2018-11-02 17:06:23.776
+!MESSAGE Started RMI Server, listening on port 21112
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-02 17:06:24.686
+!MESSAGE start
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-02 17:06:25.013
+!MESSAGE Notify change in card terminal status
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-02 17:06:25.443
+!MESSAGE Start detecting card terminals
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-11-02 17:06:45.738
+!MESSAGE Indexed 'NFC_TRY' (20 sources, 39 headers) in 3,19 sec: 4 604 declarations; 38 827 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-02 17:07:46.308
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-02 17:07:46.317
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-02 17:12:19.533
+!MESSAGE stop
+!SESSION 2018-11-03 18:19:41.044 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=sv_SE
+Framework arguments:  -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-03 18:19:56.460
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Simon Lindell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY fr.ac6.mcu.ide 1 1 2018-11-03 18:19:58.166
+!MESSAGE Started RMI Server, listening on port 21112
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-03 18:19:58.584
+!MESSAGE start
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-03 18:19:58.683
+!MESSAGE Notify change in card terminal status
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-03 18:19:58.862
+!MESSAGE Start detecting card terminals
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-03 18:25:58.072
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-03 18:25:58.079
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-11-03 18:51:15.057
+!MESSAGE No repository found at jar:file:/C:/Users/Simon%20Lindell/Downloads/en.x-cube-nfc1.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2018-11-03 18:51:15.363
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/skjolber/nfc-eclipse-plugin/master/nfc-eclipse-plugin-update-site/content.jar
+
+!ENTRY org.eclipse.debug.core 4 125 2018-11-03 20:22:15.321
+!MESSAGE Error logged from Debug Core: 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Target not available.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:111)
+	at org.eclipse.cdt.dsf.debug.sourcelookup.DsfSourceLookupParticipant.getSourceName(DsfSourceLookupParticipant.java:161)
+	at org.eclipse.cdt.dsf.debug.sourcelookup.DsfSourceLookupParticipant.findSourceElements(DsfSourceLookupParticipant.java:80)
+	at org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector$SourceLookupQuery.run(AbstractSourceLookupDirector.java:142)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector.doSourceLookup(AbstractSourceLookupDirector.java:505)
+	at org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector.getSourceElement(AbstractSourceLookupDirector.java:785)
+	at org.eclipse.cdt.dsf.debug.ui.sourcelookup.DsfSourceDisplayAdapter$LookupJob.performLookup(DsfSourceDisplayAdapter.java:203)
+	at org.eclipse.cdt.dsf.debug.ui.sourcelookup.DsfSourceDisplayAdapter$LookupJob.run(DsfSourceDisplayAdapter.java:185)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.dsf 4 10001 2018-11-03 20:22:15.323
+!MESSAGE Target not available.
+
+!ENTRY fr.ac6.mcu.debug 4 5012 2018-11-03 20:28:26.531
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-target-select remote localhost:3333
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: No error.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:111)
+	at fr.ac6.mcu.debug.launching.MCUGDBJtagDSFLaunchConfigurationDelegate.launchDebugSession(MCUGDBJtagDSFLaunchConfigurationDelegate.java:246)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at fr.ac6.mcu.debug.launching.MCUGDBJtagDSFLaunchConfigurationDelegate.launch(MCUGDBJtagDSFLaunchConfigurationDelegate.java:304)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.Exception: Remote communication error.  Target disconnected.: No error.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2018-11-03 20:28:26.535
+!MESSAGE Failed to execute MI command:
+-target-select remote localhost:3333
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: No error.
+!STACK 0
+java.lang.Exception: Remote communication error.  Target disconnected.: No error.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-11-03 20:59:36.076
+!MESSAGE An internal error occurred during: "Computing hover expression".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.ui.editors.AbstractDebugTextHover$1.runOnAST(AbstractDebugTextHover.java:252)
+	at org.eclipse.cdt.ui.text.SharedASTJob$1.runOnAST(SharedASTJob.java:74)
+	at org.eclipse.cdt.internal.core.model.ASTCache.runOnAST(ASTCache.java:219)
+	at org.eclipse.cdt.internal.ui.editor.ASTProvider.runOnAST(ASTProvider.java:336)
+	at org.eclipse.cdt.ui.text.SharedASTJob.run(SharedASTJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY fr.ac6.mcu.debug 4 5012 2018-11-03 21:00:18.564
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-target-select remote localhost:3333
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: No error.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:111)
+	at fr.ac6.mcu.debug.launching.MCUGDBJtagDSFLaunchConfigurationDelegate.launchDebugSession(MCUGDBJtagDSFLaunchConfigurationDelegate.java:246)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at fr.ac6.mcu.debug.launching.MCUGDBJtagDSFLaunchConfigurationDelegate.launch(MCUGDBJtagDSFLaunchConfigurationDelegate.java:304)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.Exception: Remote communication error.  Target disconnected.: No error.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2018-11-03 21:00:18.564
+!MESSAGE Failed to execute MI command:
+-target-select remote localhost:3333
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: No error.
+!STACK 0
+java.lang.Exception: Remote communication error.  Target disconnected.: No error.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY fr.ac6.mcu.debug 4 5012 2018-11-03 22:47:46.310
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-target-select remote localhost:3333
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: No error.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:111)
+	at fr.ac6.mcu.debug.launching.MCUGDBJtagDSFLaunchConfigurationDelegate.launchDebugSession(MCUGDBJtagDSFLaunchConfigurationDelegate.java:246)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at fr.ac6.mcu.debug.launching.MCUGDBJtagDSFLaunchConfigurationDelegate.launch(MCUGDBJtagDSFLaunchConfigurationDelegate.java:304)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.Exception: Remote communication error.  Target disconnected.: No error.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2018-11-03 22:47:46.311
+!MESSAGE Failed to execute MI command:
+-target-select remote localhost:3333
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: No error.
+!STACK 0
+java.lang.Exception: Remote communication error.  Target disconnected.: No error.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY fr.ac6.mcu.debug 4 5012 2018-11-03 23:36:01.076
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-target-select remote localhost:3333
+
+Error message from debugger back end:
+localhost:3333: Ett försök gjordes att koppla en enhet till en katalog på en ansluten enhet.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:111)
+	at fr.ac6.mcu.debug.launching.MCUGDBJtagDSFLaunchConfigurationDelegate.launchDebugSession(MCUGDBJtagDSFLaunchConfigurationDelegate.java:246)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at fr.ac6.mcu.debug.launching.MCUGDBJtagDSFLaunchConfigurationDelegate.launch(MCUGDBJtagDSFLaunchConfigurationDelegate.java:304)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.Exception: localhost:3333: Ett försök gjordes att koppla en enhet till en katalog på en ansluten enhet.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2018-11-03 23:36:01.076
+!MESSAGE Failed to execute MI command:
+-target-select remote localhost:3333
+
+Error message from debugger back end:
+localhost:3333: Ett försök gjordes att koppla en enhet till en katalog på en ansluten enhet.
+!STACK 0
+java.lang.Exception: localhost:3333: Ett försök gjordes att koppla en enhet till en katalog på en ansluten enhet.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.debug.core 4 125 2018-11-04 00:08:03.107
+!MESSAGE Error logged from Debug Core: 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Target not available.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:111)
+	at org.eclipse.cdt.dsf.debug.sourcelookup.DsfSourceLookupParticipant.getSourceName(DsfSourceLookupParticipant.java:161)
+	at org.eclipse.cdt.dsf.debug.sourcelookup.DsfSourceLookupParticipant.findSourceElements(DsfSourceLookupParticipant.java:80)
+	at org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector$SourceLookupQuery.run(AbstractSourceLookupDirector.java:142)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector.doSourceLookup(AbstractSourceLookupDirector.java:505)
+	at org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector.getSourceElement(AbstractSourceLookupDirector.java:785)
+	at org.eclipse.cdt.dsf.debug.ui.sourcelookup.DsfSourceDisplayAdapter$LookupJob.performLookup(DsfSourceDisplayAdapter.java:203)
+	at org.eclipse.cdt.dsf.debug.ui.sourcelookup.DsfSourceDisplayAdapter$LookupJob.run(DsfSourceDisplayAdapter.java:185)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.dsf 4 10001 2018-11-04 00:08:03.107
+!MESSAGE Target not available.
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-11-04 02:16:45.815
+!MESSAGE Indexed 'NFC_TRY' (53 sources, 105 headers) in 3,51 sec: 9 085 declarations; 80 764 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+!SESSION 2018-11-04 13:13:35.423 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=sv_SE
+Framework arguments:  -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-11-04 13:13:49.492
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-04 13:13:57.187
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Simon Lindell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY fr.ac6.mcu.ide 1 1 2018-11-04 13:13:59.500
+!MESSAGE Started RMI Server, listening on port 21112
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-04 13:13:59.952
+!MESSAGE start
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-04 13:14:00.054
+!MESSAGE Notify change in card terminal status
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-04 13:14:00.171
+!MESSAGE Start detecting card terminals
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-04 13:16:29.927
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-11-04 13:16:29.934
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-11-04 13:34:36.861
+!MESSAGE No repository found at jar:file:/C:/Users/Simon%20Lindell/Downloads/en.x-cube-nfc1.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2018-11-04 13:34:37.340
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/skjolber/nfc-eclipse-plugin/master/nfc-eclipse-plugin-update-site/content.jar
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2018-11-04 19:43:00.838
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@1647512a): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2018-11-04 19:43:00.838
+!MESSAGE Context cannot be suspended.
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-04 19:43:01.144
+!MESSAGE stop
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-11-04 19:43:01.567
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+!SESSION 2018-11-05 15:42:44.068 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=sv_SE
+Framework arguments:  -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-05 15:43:06.445
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Simon Lindell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY fr.ac6.mcu.ide 1 1 2018-11-05 15:43:08.501
+!MESSAGE Started RMI Server, listening on port 21113
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-05 15:43:08.676
+!MESSAGE start
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-05 15:43:08.755
+!MESSAGE Notify change in card terminal status
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-05 15:43:08.784
+!MESSAGE Start detecting card terminals
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-11-05 15:48:54.958
+!MESSAGE No repository found at jar:file:/C:/Users/Simon%20Lindell/Downloads/en.x-cube-nfc1.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2018-11-05 15:48:55.268
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/skjolber/nfc-eclipse-plugin/master/nfc-eclipse-plugin-update-site/content.jar
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-05 15:55:58.000
+!MESSAGE stop
+!SESSION 2019-01-26 22:02:56.149 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=sv_SE
+Framework arguments:  -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-26 22:03:28.956
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Simon Lindell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY fr.ac6.mcu.ide 1 1 2019-01-26 22:03:30.628
+!MESSAGE Started RMI Server, listening on port 21114
+
+!ENTRY com.antares.nfc.plugin 1 0 2019-01-26 22:03:31.505
+!MESSAGE start
+
+!ENTRY com.antares.nfc.plugin 1 0 2019-01-26 22:03:31.673
+!MESSAGE Notify change in card terminal status
+
+!ENTRY com.antares.nfc.plugin 1 0 2019-01-26 22:03:32.010
+!MESSAGE Start detecting card terminals
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-26 22:04:02.506
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-26 22:04:02.530
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-01-26 22:09:41.177
+!MESSAGE No repository found at jar:file:/C:/Users/Simon%20Lindell/Downloads/en.x-cube-nfc1.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-01-26 22:09:41.971
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/skjolber/nfc-eclipse-plugin/master/nfc-eclipse-plugin-update-site/content.jar
+
+!ENTRY com.antares.nfc.plugin 1 0 2019-01-27 00:08:59.625
+!MESSAGE stop
+!SESSION 2019-01-28 08:44:17.511 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=sv_SE
+Framework arguments:  -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-28 08:45:03.060
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Simon Lindell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY fr.ac6.mcu.ide 1 1 2019-01-28 08:45:05.346
+!MESSAGE Started RMI Server, listening on port 21112
+
+!ENTRY com.antares.nfc.plugin 1 0 2019-01-28 08:45:07.073
+!MESSAGE start
+
+!ENTRY com.antares.nfc.plugin 1 0 2019-01-28 08:45:07.771
+!MESSAGE Notify change in card terminal status
+
+!ENTRY com.antares.nfc.plugin 1 0 2019-01-28 08:45:07.991
+!MESSAGE Start detecting card terminals
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-01-28 09:37:37.671
+!MESSAGE No repository found at jar:file:/C:/Users/Simon%20Lindell/Downloads/en.x-cube-nfc1.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-01-28 09:37:37.976
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/skjolber/nfc-eclipse-plugin/master/nfc-eclipse-plugin-update-site/content.jar
+
+!ENTRY com.antares.nfc.plugin 1 0 2019-01-28 10:29:43.414
+!MESSAGE stop
+!SESSION 2019-01-29 12:42:39.107 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=sv_SE
+Framework arguments:  -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-29 12:43:35.340
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Simon Lindell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.antares.nfc.plugin 1 0 2019-01-29 12:43:37.773
+!MESSAGE start
+
+!ENTRY com.antares.nfc.plugin 1 0 2019-01-29 12:43:37.841
+!MESSAGE Notify change in card terminal status
+
+!ENTRY com.antares.nfc.plugin 1 0 2019-01-29 12:43:37.862
+!MESSAGE Start detecting card terminals
+
+!ENTRY fr.ac6.mcu.ide 1 1 2019-01-29 12:43:38.755
+!MESSAGE Started RMI Server, listening on port 21113
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-01-29 19:55:56.506
+!MESSAGE No repository found at jar:file:/C:/Users/Simon%20Lindell/Downloads/en.x-cube-nfc1.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2019-01-29 19:55:56.842
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/skjolber/nfc-eclipse-plugin/master/nfc-eclipse-plugin-update-site/content.jar
+
+!ENTRY com.antares.nfc.plugin 1 0 2019-01-29 20:54:38.899
+!MESSAGE stop
+!SESSION 2019-01-31 14:29:25.754 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=sv_SE
+Framework arguments:  -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-31 14:29:48.838
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Simon Lindell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.antares.nfc.plugin 1 0 2019-01-31 14:29:51.521
+!MESSAGE start
+
+!ENTRY com.antares.nfc.plugin 1 0 2019-01-31 14:29:51.600
+!MESSAGE Notify change in card terminal status
+
+!ENTRY com.antares.nfc.plugin 1 0 2019-01-31 14:29:51.663
+!MESSAGE Start detecting card terminals
+
+!ENTRY fr.ac6.mcu.ide 1 1 2019-01-31 14:29:52.657
+!MESSAGE Started RMI Server, listening on port 21113
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-31 14:30:00.519
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-31 14:30:00.533
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.antares.nfc.plugin 1 0 2019-01-31 14:36:03.683
+!MESSAGE stop

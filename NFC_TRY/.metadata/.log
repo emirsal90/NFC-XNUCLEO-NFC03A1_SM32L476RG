@@ -1,0 +1,29 @@
+!SESSION 2018-11-04 13:12:20.365 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=sv_SE
+Framework arguments:  -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-04 13:13:08.907
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Simon Lindell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY fr.ac6.mcu.ide 1 1 2018-11-04 13:13:11.035
+!MESSAGE Started RMI Server, listening on port 21112
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-04 13:13:12.891
+!MESSAGE start
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-04 13:13:13.286
+!MESSAGE Notify change in card terminal status
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-04 13:13:13.310
+!MESSAGE Start detecting card terminals
+
+!ENTRY com.antares.nfc.plugin 1 0 2018-11-04 13:13:31.889
+!MESSAGE stop
